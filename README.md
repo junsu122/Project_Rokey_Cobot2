@@ -387,7 +387,7 @@ pick_and_place_node.py
 ![그리퍼 각도찾기 알고리즘 - 각도와 물체 매칭](assets/gripper_angle_2.png)
 <p align="center">&lt;각도-물체 매칭&gt;</p>
 
-table>
+<table>
   <tr>
     <td align="center"><b>문제 상황</b></td>
     <td align="center"><b>해결 후</b></td>
