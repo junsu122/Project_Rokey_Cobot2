@@ -320,10 +320,33 @@ pick_and_place_node.py
 ![예외처리 플로우](./assets/exception_flow.png)
 <p align="center">&lt;외력감지 / 비상정지 복구 플로우&gt;</p>
 
+
+<table>
+  <tr>
+    <td align="center"><b>예외처리 - 웹</b></td>
+    <td align="center"><b>예외처리 - 카메라</b></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/예외처리.gif"/></td>
+    <td><img src="./assets/예외처리camera.gif"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>비상정지 - 웹</b></td>
+    <td align="center"><b>비상정지 - 카메라</b></td>
+  </tr>
+  <tr>
+    <td><img src="./assets/이스탑.gif"/></td>
+    <td><img src="./assets/이스탑camera.gif"/></td>
+  </tr>
+</table>
+
 ---
 
 ### 5. [손바닥 인식을 통한 M0609 동작]
 - mediapipe를 이용, 손가락 마디의 크기를 인식하여 손가락 마디의 크기가 작아지면 뒤로 움직이고 마디의 크기가 커지면 앞으로 움직이는 로직 개발
+  
+![mediapipe를 이용한 m0609 제어](./assets/손으로움직이기.gif)
+<p align="center">&lt;mediapipe를 이용한 m0609 제어&gt;</p>
 
 ---
 
@@ -364,22 +387,14 @@ pick_and_place_node.py
 ![그리퍼 각도찾기 알고리즘 - 각도와 물체 매칭](assets/gripper_angle_2.png)
 <p align="center">&lt;각도-물체 매칭&gt;</p>
 
-<table>
+table>
   <tr>
-    <td align="center"><b>예외처리 - 웹</b></td>
-    <td align="center"><b>예외처리 - 카메라</b></td>
+    <td align="center"><b>문제 상황</b></td>
+    <td align="center"><b>해결 후</b></td>
   </tr>
   <tr>
-    <td><img src="./assets/예외처리.gif"/></td>
-    <td><img src="./assets/예외처리camera.gif"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>비상정지 - 웹</b></td>
-    <td align="center"><b>비상정지 - 카메라</b></td>
-  </tr>
-  <tr>
-    <td><img src="./assets/이스탑.gif"/></td>
-    <td><img src="./assets/이스탑camera.gif"/></td>
+    <td><img src="./assets/실패.gif"/></td>
+    <td><img src="./assets/성공.gif"/></td>
   </tr>
 </table>
 
